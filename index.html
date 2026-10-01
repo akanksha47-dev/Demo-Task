@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adhishrihaan Foundation</title>
+  <!-- Fonts: Poppins (menu) + Anton (big slider word) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+<!-- Bootstrap 5 CSS (CDN) -->
+  <link href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  
+  <header>
+   <nav class="navbar navbar-expand-lg custom-navbar ">
+    <div class="container">
+
+      <!-- Logo -->
+      <a class="navbar-brand" href="index.html">
+        <img src="images/logo/logo.png" alt="Adhishrihaan Foundation" height="40">
+      </a>
+
+
+      <!-- Mobile hamburger button -->
+      <button class="navbar-toggler" type="button"
+              data-bs-toggle="collapse" data-bs-target="#mainMenu"
+              aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Menu links -->
+       <div class="collapse navbar-collapse" id="mainMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center text-uppercase">
+          <li class="nav-item"><a class="nav-link active text-white" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#">The Shrihaan Sahyog Grant</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#">Initiatives</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#">Our Impact</a></li>
+
+          <!-- Events dropdown -->
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown">Events</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item " href="#">Upcoming Events</a></li>
+              <li><a class="dropdown-item " href="#">Past Events</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item"><a class="nav-link text-white" href="#">News &amp; Media</a></li>
+
+          <!-- Get Involved dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown">Get Involved</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item " href="#">Donate</a></li>
+              <li><a class="dropdown-item" href="#">Volunteer</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- SLIDER () -->
+  <div id="heroSlider" class="carousel slide carousel-fade hero-slider" data-bs-ride="carousel" data-bs-interval="4500" data-bs-pause="false">
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <div class="hero-slide slide-1 $green-200"><h1 class="hero-word">Environment</h1></div>
+      </div>
+      <div class="carousel-item">
+        <div class="hero-slide slide-2 secondary"><h1 class="hero-word">Education</h1></div>
+      </div>
+      <div class="carousel-item">
+        <div class="hero-slide slide-3 text-white" ><h1 class="hero-word">Health</h1></div>
+      </div>
+      <div class="carousel-item">
+        <div class="hero-slide slide-4 text-white"><h1 class="hero-word">Livelihood</h1></div>
+      </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroSlider" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroSlider" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Layer 3: buttons-->
+  <div class="position-absolute bottom-0 start-0 end-0 z-3 d-flex justify-content-between align-items-center px-4 px-lg-5 pb-4 pb-lg-5">
+    <div class="d-flex gap-2 gap-lg-3">
+      <a href="#" class="btn btn-outline-light rounded-pill border-3 px-3 px-lg-4 py-2 text-uppercase fw-medium">Know More</a>
+      <a href="#" class="btn btn-outline-light rounded-pill border-3 px-3 px-lg-4 py-2 text-uppercase fw-medium">Volunteer</a>
+    </div>
+    <a href="#" class="btn btn-outline-light rounded-pill border-3 px-3 px-lg-4 py-2 text-uppercase fw-medium">Donate</a>
+  </div>
+</header>
+
+<section class="intro">
+  <div class="text-center text-white py-3 px-3" style="background-color: #2b4a1b;">
+    <h2 class="fs-5 fw-normal lh-base m-0" style="letter-spacing: 0.08em;">
+      Empowering Those Who Empower Others: Investing in Grassroots, Investing in India's Future.
+    </h2>
+  </div>
+
+  <!-- -->
+  <div class= "text-center text-white py-4 py-md-5 px-3" style="background-color: #2a3d21;">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-10 col-lg-8 col-xl-7">
+          <p class="fs-5 fw-light lh-lg mb-4 mb-md-5">
+            At Adhishrihaan Foundation, we believe true transformation begins at the roots. We are the steadfast support system for the unsung heroes of community development: grassroots NGOs, nurturing their vital work with unwavering care and commitment.
+          </p>
+        </div>
+      </div>
+
+      <div class="d-flex flex-column flex-sm-row justify-content-center align-items-center gap-2 gap-sm-4">
+        <a href="#" class="text-white text-decoration-none text-uppercase fw-semibold fs-5">Discover Our Impact</a>
+        <span class="border-start border-3 border-white align-self-stretch d-none d-sm-block"></span>
+        <a href="#" class="text-white text-decoration-none text-uppercase fw-semibold fs-5">Support Our Mission</a>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+<!-- third section -->
+ <section class="bg-white py-4 py-md-5 overflow-hidden"
+         style="font-family:'Poppins',sans-serif; color:#22401a; font-size:clamp(1rem,1.25vw,1.2rem); line-height:1.45;">
+  <div class="container px-3 px-md-4" style="max-width:1300px;">
+
+    <!-- Heading -->
+    <div class="text-center mb-4 mb-lg-5" data-aos="fade-up" data-aos-duration="900">
+      <h2 class="fw-bold text-uppercase mb-0 lh-1" style="font-size:clamp(2.2rem,4vw,3.3rem); letter-spacing:-2px;">What We Do</h2>
+      <p class="fw-semibold text-uppercase mb-0" style="font-size:clamp(1.05rem,1.6vw,1.5rem);">Our Pillars of Support</p>
+    </div>
+
+    <!-- Pillar 1 -->
+    <div class="row gx-lg-4 mb-4 mb-lg-5" data-aos="fade-up" data-aos-duration="900">
+      <div class="col-12 col-lg-3">
+        <h3 class="fw-semibold text-uppercase lh-sm mb-2 mb-lg-0" style="font-size:clamp(1.5rem,2.4vw,2.2rem);">Capacity Building</h3>
+      </div>
+      <div class="col-12 col-lg-9 pt-lg-1">
+        <p class="text-dark mb-3">We offer tailored training programs, essential funding assistance, and critical technological support to enhance the operational efficiency and program effectiveness of our partner NGOs. This includes workshops on project management, financial literacy, fundraising strategies, and digital tools. We believe in strengthening their internal capabilities so they can serve their communities even better.</p>
+        <p class="fw-bold mb-0">Care in Action: Providing the tools and knowledge that empower grassroots leaders to sustain their vital work, ensuring their dedication translates into lasting impact.</p>
+      </div>
+    </div>
+
+    <!-- Pillar 2 -->
+    <div class="row gx-lg-4 mb-4 mb-lg-5" data-aos="fade-up" data-aos-duration="900">
+      <div class="col-12 col-lg-3">
+        <h3 class="fw-semibold text-uppercase lh-sm mb-2 mb-lg-0" style="font-size:clamp(1.5rem,2.4vw,2.2rem);">Visibility</h3>
+      </div>
+      <div class="col-12 col-lg-9 pt-lg-1">
+        <p class="text-dark mb-3">We are dedicated to amplifying the impactful stories of these silent warriors. We help them effectively communicate their achievements, document their journeys, and gain the recognition they truly deserve through strategic communication and media outreach. This includes developing compelling narratives, creating impact reports, and connecting them with broader audiences.</p>
+        <p class="fw-bold mb-0">Care in Action: Shining a spotlight on the tireless efforts of those who work selflessly on the ground, ensuring their dedication inspires more support and change.</p>
+      </div>
+    </div>
+
+    <!-- Pillar 3 -->
+    <div class="row gx-lg-4" data-aos="fade-up" data-aos-duration="900">
+      <div class="col-12 col-lg-3">
+        <h3 class="fw-semibold text-uppercase lh-sm mb-2 mb-lg-0" style="font-size:clamp(1.5rem,2.4vw,2.2rem);">Networking</h3>
+      </div>
+      <div class="col-12 col-lg-9 pt-lg-1">
+        <p class="text-dark mb-3">We connect grassroots NGOs with each other, fostering collaborative learning and shared solutions. We also link them with larger philanthropic organizations, corporate CSR initiatives, academic institutions, and government bodies. This builds a robust ecosystem of collective action and greater synergy for wider reach and sustainable impact.</p>
+        <p class="fw-bold mb-0">Care in Action: Building bridges of partnership and shared purpose, creating a stronger, more united front for social transformation.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ====OUR FOCUS AREAS ==== -->
+<section class="position-relative overflow-hidden bg-body-tertiary py-5">
+  <!-- Background image -->
+  <img src="./images/focus-areas/abstract-background.webp" alt="" aria-hidden="true" class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover">
+
+  <div class="container position-relative py-md-4">
+
+    <div class="text-center mb-4 mb-md-5">
+      <h2 class="display-5 fw-bolder text-uppercase text-success-emphasis lh-1 mb-1">Our Focus Areas</h2>
+      <p class="h5 fw-semibold text-uppercase text-success-emphasis mb-0">Touching Lives With Compassion</p>
+    </div>
+
+    <div class="row g-3">
+
+      <!-- one card mobile full height left card -->
+      <div class="col-12 col-md-3 d-md-flex">
+        <div class="d-none d-md-block position-relative flex-grow-1 rounded-4 overflow-hidden bg-secondary">
+          <img src="./images/focus-areas/woman-child-welfare.jpg" alt="Woman and Child Welfare" class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover">
+          <span class="position-absolute bottom-0 start-0 end-0 pt-4 pb-3 text-center text-white fw-semibold fs-6 bg-dark bg-opacity-25">Woman and Child Welfare</span>
+        </div>
+      </div>
+
+      <!-- six small cards, two mobile row,  three per row
+       
+      -->
+      <div class="col-12 col-md-9">
+        <div class="row row-cols-2 row-cols-md-3 g-3">
+
+          <div class="col">
+            <div class="ratio ratio-4x3 rounded-4 overflow-hidden bg-secondary">
+              <div>
+                <img src="./images/focus-areas/education.jpg" alt="Education" class="w-100 h-100 object-fit-cover">
+                <span class="position-absolute bottom-0 start-0 end-0 pt-4 pb-3 text-center text-white fw-semibold fs-6 bg-dark bg-opacity-25">Education</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="ratio ratio-4x3 rounded-4 overflow-hidden bg-secondary">
+              <div>
+                <img src="./images/focus-areas/healthcare.jpg" alt="Healthcare" class="w-100 h-100 object-fit-cover">
+                <span class="position-absolute bottom-0 start-0 end-0 pt-4 pb-3 text-center text-white fw-semibold fs-6 bg-dark bg-opacity-25">Healthcare</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="ratio ratio-4x3 rounded-4 overflow-hidden bg-secondary">
+              <div>
+                <img src="./images/focus-areas/skill-development.jpg" alt="Skill Development" class="w-100 h-100 object-fit-cover">
+                <span class="position-absolute bottom-0 start-0 end-0 pt-4 pb-3 text-center text-white fw-semibold fs-6 bg-dark bg-opacity-25">Skill Development</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="ratio ratio-4x3 rounded-4 overflow-hidden bg-secondary">
+              <div>
+                <img src="./images/focus-areas/animal-welfare.jpg" alt="Animal Welfare" class="w-100 h-100 object-fit-cover">
+                <span class="position-absolute bottom-0 start-0 end-0 pt-4 pb-3 text-center text-white fw-semibold fs-6 bg-dark bg-opacity-25">Animal Welfare</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="ratio ratio-4x3 rounded-4 overflow-hidden bg-secondary">
+              <div>
+                <img src="./images/focus-areas/elderly-care.jpg" alt="Elderly Care" class="w-100 h-100 object-fit-cover">
+                <span class="position-absolute bottom-0 start-0 end-0 pt-4 pb-3 text-center text-white fw-semibold fs-6 bg-dark bg-opacity-25">Elderly Care</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="ratio ratio-4x3 rounded-4 overflow-hidden bg-secondary">
+              <div>
+                <img src="./images/focus-areas/environment.jpg" alt="Environment" class="w-100 h-100 object-fit-cover">
+                <span class="position-absolute bottom-0 start-0 end-0 pt-4 pb-3 text-center text-white fw-semibold fs-6 bg-dark bg-opacity-25">Environment</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- =========THE SHRIHAAN SAHYOG GRANT======= -->
+<section class="bg-white py-5">
+  <div class="container-fluid px-3 px-md-4 px-xl-5 py-lg-4">
+    <div class="row align-items-center g-4 g-lg-5">
+
+      <!-- Text -->
+      <div class="col-12 col-lg-6">
+        <h2 class="display-6 fw-bold mb-4" style="color:#2b4d1b;">The Shrihaan Sahyog Grant</h2>
+
+        <p class="fs-5 lh-base mb-4 shrihaan">
+          As a testament to our unwavering commitment to direct and impactful support,
+          Adhishrihaan Foundation proudly offers the <strong>“Shrihaan Sahyog” Grant.</strong>
+        </p>
+
+        <p class="fs-5 lh-base mb-4 shrihaan">
+          This annual grant provides crucial, catalytic funding to 3-5 carefully selected micro-NGOs
+          that are undertaking powerful ground-level work but are often constrained by a lack of
+          visibility or financial resources.
+        </p>
+
+        <a href="#" class="btn fw-normal rounded-pill px-4 py-2 mt-2" style="--bs-btn-color:#fff;--bs-btn-bg:#2b4d1b;--bs-btn-border-color:#2b4d1b;--bs-btn-hover-color:#fff;--bs-btn-hover-bg:#2b4d1b;--bs-btn-hover-border-color:#2b4d1b;--bs-btn-active-bg:#2b4d1b;--bs-btn-active-border-color:#2b4d1b;--bs-btn-active-color:#fff;">Know More</a>
+      </div>
+
+      <!-- image slider -->
+      <div class="col-12 col-lg-6">
+        <div class="ratio ratio-4x3 rounded-5 overflow-hidden">
+          <div id="grantSlider" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3500" data-bs-pause="false">
+            <div class="carousel-inner h-100">
+              <div class="carousel-item active h-100">
+                <img src="./images/grant/grant-1.png" class="d-block w-100 h-100 object-fit-cover" alt="Health worker with village women">
+              </div>
+              <div class="carousel-item h-100">
+                <img src="./images/grant/grant-2.png" class="d-block w-100 h-100 object-fit-cover" alt="Community support" loading="lazy">
+              </div>
+              <div class="carousel-item h-100">
+                <img src="./images/grant/grant-3.png" class="d-block w-100 h-100 object-fit-cover" alt="Grassroots NGO work" loading="lazy">
+              </div>
+              <div class="carousel-item h-100">
+                <img src="./images/grant/grant-4.png" class="d-block w-100 h-100 object-fit-cover" alt="Grassroots NGO work" loading="lazy">
+              </div>
+              <div class="carousel-item h-100">
+                <img src="./images/grant/grant-5.png" class="d-block w-100 h-100 object-fit-cover" alt="Grassroots NGO work" loading="lazy">
+              </div>
+              <div class="carousel-item h-100">
+                <img src="./images/grant/grant-6.png" class="d-block w-100 h-100 object-fit-cover" alt="Grassroots NGO work" loading="lazy">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!--Our Events Section-->
+
+<section class="events-section">
+  <div class="container events-wrap">
+
+    <div class="text-center">
+      <h2 class="ev-title">Our Events</h2>
+      <p class="ev-sub">What’s Next &amp; What’s Been</p>
+
+      <ul class="nav nav-pills justify-content-center ev-tabs" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#tab-past" type="button" role="tab" aria-selected="true">Past Events</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" data-bs-toggle="pill" data-bs-target="#tab-upcoming" type="button" role="tab" aria-selected="false">Upcoming Events</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="ev-panel">
+      <div class="tab-content">
+
+        <!-- === PAST EVENTS === -->
+        <div class="tab-pane fade show active" id="tab-past" role="tabpanel">
+          <div id="pastSlider" class="carousel slide">
+            <div class="carousel-inner">
+
+              <div class="carousel-item active">
+                <article class="ev-card">
+                  <div class="ev-img"><img src="./images/events/event-1.webp" alt="Stationery distribution event" loading="lazy"></div>
+                  <div class="ev-body">
+                    <h3 class="ev-name">Stationery Distribution at Maharish Dayanand Bal Ashram</h3>
+                    <div class="ev-meta">
+                      <span class="ev-chip">📅 11-09-2025</span>
+                      <span class="ev-chip">📍 Chandigarh</span>
+                      <span class="ev-chip">🏟️ Udham Singh Colony in Sector 74, Mohali</span>
+                    </div>
+                    <div class="ev-tags"><span class="ev-tag blue">Past Events</span><span class="ev-tag green">Education</span></div>
+                    <p class="ev-desc">According to a 2023 report, people living in slum areas like Udham Singh Colony in Sector 74, Mohali, Chandigarh, face significant challenges. Often, these slums lack adequate infrastructure,...</p>
+                    <a href="https://adhishrihaan.org/events/stationery-distribution-at-maharish-dayanand-bal-ashram/" class="ev-btn">Read More</a>
+                  </div>
+                </article>
+              </div>
+
+              <div class="carousel-item">
+                <article class="ev-card">
+                  <div class="ev-img"><img src="./images/events/event-2.webp" alt="Past event 2" loading="lazy"></div>
+                  <div class="ev-body">
+                    <h3 class="ev-name">Past Event Title Two</h3>
+                    <div class="ev-meta"><span class="ev-chip">📅 DD-MM-YYYY</span><span class="ev-chip">📍 City</span><span class="ev-chip">🏟️ Venue name</span></div>
+                    <div class="ev-tags"><span class="ev-tag blue">Past Events</span><span class="ev-tag green">Category</span></div>
+                    <p class="ev-desc">Short description of the event goes here...</p>
+                    <a href="#" class="ev-btn">Read More</a>
+                  </div>
+                </article>
+              </div>
+
+              <div class="carousel-item">
+                <article class="ev-card">
+                  <div class="ev-img"><img src="./images/events/event-3.webp" alt="Past event 3" loading="lazy"></div>
+                  <div class="ev-body">
+                    <h3 class="ev-name">Past Event Title Three</h3>
+                    <div class="ev-meta"><span class="ev-chip">📅 DD-MM-YYYY</span><span class="ev-chip">📍 City</span><span class="ev-chip">🏟️ Venue name</span></div>
+                    <div class="ev-tags"><span class="ev-tag blue">Past Events</span><span class="ev-tag green">Category</span></div>
+                    <p class="ev-desc">Short description of the event goes here...</p>
+                    <a href="#" class="ev-btn">Read More</a>
+                  </div>
+                </article>
+              </div>
+
+              <div class="carousel-item">
+                <article class="ev-card">
+                  <div class="ev-img"><img src="./images/events/event-4.png" alt="Past event 4" loading="lazy"></div>
+                  <div class="ev-body">
+                    <h3 class="ev-name">Past Event Title Four</h3>
+                    <div class="ev-meta"><span class="ev-chip">📅 DD-MM-YYYY</span><span class="ev-chip">📍 City</span><span class="ev-chip">🏟️ Venue name</span></div>
+                    <div class="ev-tags"><span class="ev-tag blue">Past Events</span><span class="ev-tag green">Category</span></div>
+                    <p class="ev-desc">Short description of the event goes here...</p>
+                    <a href="#" class="ev-btn">Read More</a>
+                  </div>
+                </article>
+              </div>
+
+            </div>
+            <div class="carousel-indicators ev-dots">
+              <button type="button" data-bs-target="#pastSlider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#pastSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#pastSlider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#pastSlider" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- ===UPCOMING EVENTS === -->
+        <div class="tab-pane fade" id="tab-upcoming" role="tabpanel">
+          <div id="upcomingSlider" class="carousel slide">
+            <div class="carousel-inner">
+
+              <div class="carousel-item active">
+                <article class="ev-card">
+                  <div class="ev-img"><img src="./images/events/event-4.png" alt="Upcoming event 1" loading="lazy"></div>
+                  <div class="ev-body">
+                    <h3 class="ev-name">Upcoming Event Title One</h3>
+                    <div class="ev-meta"><span class="ev-chip">📅 DD-MM-YYYY</span><span class="ev-chip">📍 City</span><span class="ev-chip">🏟️ Venue name</span></div>
+                    <div class="ev-tags"><span class="ev-tag blue">Upcoming Events</span><span class="ev-tag green">Category</span></div>
+                    <p class="ev-desc">Short description of the event goes here...</p>
+                    <a href="#" class="ev-btn">Read More</a>
+                  </div>
+                </article>
+              </div>
+
+              <div class="carousel-item">
+                <article class="ev-card">
+                  <div class="ev-img"><img src="./images/events/event-2.webp" alt="Upcoming event 2" loading="lazy"></div>
+                  <div class="ev-body">
+                    <h3 class="ev-name">Upcoming Event Title Two</h3>
+                    <div class="ev-meta"><span class="ev-chip">📅 DD-MM-YYYY</span><span class="ev-chip">📍 City</span><span class="ev-chip">🏟️ Venue name</span></div>
+                    <div class="ev-tags"><span class="ev-tag blue">Upcoming Events</span><span class="ev-tag green">Category</span></div>
+                    <p class="ev-desc">Short description of the event goes here...</p>
+                    <a href="#" class="ev-btn">Read More</a>
+                  </div>
+                </article>
+              </div>
+
+            </div>
+            <div class="carousel-indicators ev-dots">
+              <button type="button" data-bs-target="#upcomingSlider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#upcomingSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ================= FOOTER================= -->
+<footer class="text-white rounded-top-5 pt-5 mt-4" style="font-family:'Poppins',sans-serif; font-size:18px; font-weight:300; color:#FFFFFF; background: linear-gradient(to top right, #080808 45%, #2b4d1b 100%);">
+  <div class="container-fluid px-4 px-lg-5 pt-lg-4">
+
+    <!-- Top row -->
+     <div class="row g-4 g-lg-3 text-center text-lg-start">
+
+    <!-- Logo + Email + Phone -->
+      <div class="col-12 col-lg-5">
+      <a href="index.html" target="_blank">
+      <img src="images/logo/footer-logo.png" alt="Adhishrihaan" style="width: 50%; 
+    margin-bottom: 20px;"></a>
+
+        <div class="row g-3">
+          <div class="col-12 col-sm-6">
+            <p class="mb-3">Email</p>
+            <a href="mailto:info@adhishrihaan.com" class="text-white text-decoration-none">info@adhishrihaan.com</a>
+          </div>
+          <div class="col-12 col-sm-6">
+            <p class="mb-3">Phone</p>
+            <a href="tel:+97066000007" class="text-white text-decoration-none">+970 66 00 00 7</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Follow Us -->
+      <div class="col-12 col-lg-4">
+        <p class="mb-4">Follow Us</p>
+        <div class="d-flex justify-content-center justify-content-lg-start flex-wrap gap-3">
+          <a href="https://www.facebook.com/p/Adhishrihaan-Foundation-61580298832749/" target="_blank" aria-label="Facebook"  class="d-inline-flex rounded-circle bg-white text-success-emphasis p-3 fs-5 lh-1"><i class="bi bi-facebook"></i></a>
+
+          <a href="https://www.instagram.com/adhishrihaan" target="_blank" aria-label="Instagram" class="d-inline-flex rounded-circle bg-white text-success-emphasis p-3 fs-5 lh-1"><i class="bi bi-instagram"></i></a>
+
+          <a href="https://x.com/adhishrihaan" target="_blank" aria-label="Twitter"   class="d-inline-flex rounded-circle bg-white text-success-emphasis p-3 fs-5 lh-1"><i class="bi bi-twitter"></i></a>
+          <a href="https://www.linkedin.com/company/adhishrihaan/" target="_blank" aria-label="LinkedIn"  class="d-inline-flex rounded-circle bg-white text-success-emphasis p-3 fs-5 lh-1"><i class="bi bi-linkedin"></i></a>
+          <a href="https://www.youtube.com/@Adhishrihaan?app=desktop" target="_blank" aria-label="YouTube"   class="d-inline-flex rounded-circle bg-white text-success-emphasis p-3 fs-5 lh-1"><i class="bi bi-youtube"></i></a>
+        </div>
+      </div>
+
+      <!-- Tagline + Donate -->
+      <div class="col-12 col-lg-3">
+        <p class="mb-4 changingfor" >Changing Lives, Building Futures.</p>
+        <a href="#" class="btn fs-4 text-uppercase" style="background-color:#FFFFFF; font-family:'Roboto',sans-serif; font-weight:400; text-decoration:none; fill:#000000; color:#000000; border-style:solid; border-width:4px; border-color:#2B4D1B; border-radius:30px 30px 30px 30px; padding:7px 9px 7px 9px; font-size: 15px !important">Donate Now</a>
+      </div>
+
+    </div>
+
+    <hr class="border-light opacity-50 my-4 my-lg-5">
+
+    <!-- Bottom row -->
+    <div class="row align-items-center g-3 pb-4 text-center text-lg-start">
+      <div class="col-12 col-lg-6">
+        <p class="mb-0" foo_ter>© 2025 Adhishrihaan | All rights reserved | Designed by Akki Studios</p>
+      </div>
+      <div class="col-12 col-lg-6">
+        <ul class="nav justify-content-center justify-content-lg-end">
+          <li class="nav-item border-end border-light border-opacity-50"><a class="nav-link text-white py-0 px-3" href="#"><i class="bi bi-house-fill me-2"></i>Home</a></li>
+          <li class="nav-item border-end border-light border-opacity-50"><a class="nav-link text-white py-0 px-3" href="#">About Us</a></li>
+          <li class="nav-item border-end border-light border-opacity-50"><a class="nav-link text-white py-0 px-3" href="#">Initiatives</a></li>
+          <li class="nav-item border-end border-light border-opacity-50"><a class="nav-link text-white py-0 px-3" href="#">Our Impact</a></li>
+          <li class="nav-item"><a class="nav-link text-white py-0 px-3" href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+
+
+
+<!-- Bootstrap js bundle CDN -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
