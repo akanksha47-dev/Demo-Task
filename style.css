@@ -26,7 +26,9 @@ body {
   margin-right: 6%;
   position: absolute; top: 0; left: 0; right: 0; z-index: 20;  
 }
-
+.nav-link{
+font-size:13px ! important;
+}
 
 .nav-link {
   color: #fff;
